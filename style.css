@@ -7,6 +7,8 @@ section{
     justify-content: space-between;
     align-items: center;
     height: 40px;
+    margin: 50px;
+    padding: 20px;
 }
 body{
     background-image: url(bg-img.jpg);
@@ -22,6 +24,13 @@ h1{
     font-size: 50px;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
+}
+.tt{
+    color: rgb(238, 184, 114);
+
+}
+.ww{
+    color: rgb(180, 123, 123);
 }
 .img{
     width: 5px;
@@ -43,7 +52,7 @@ input{
     margin: 20px;
 }
 button{
-    background-color: gray;
+    background-color: rgba(255, 192, 203, 0.856);
     padding: 20px 20px;
     width: 200px;
     border: none;
@@ -56,6 +65,7 @@ button:hover{
     transition: .5s ease;
     cursor: pointer;
 }
-
-
+@media screen and( max-width:900px){
+    display: max-block-size;
+}
 
